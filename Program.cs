@@ -13,20 +13,20 @@ namespace ConsoleApp1
             uint nechet = 0;
             uint chet = 0;
             Console.WriteLine("Введите первый спектр");
-            int currentZhach = int.Parse(Console.ReadLine());
+            int currentValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите последний спектр");
             int limbo = int.Parse(Console.ReadLine());
-            while (currentZhach <= limbo)
+            while (currentZnach <= limbo)
             {
-                if (currentZhach % 2 == 0)
-                {
-                    nechet++;
-                }
-                else
+                if (currentZnach % 2 == 0)
                 {
                     chet++;
                 }
-                currentZhach++;
+                else
+                {
+                    nechet++;
+                }
+                currentZnach++;
             }
             Console.WriteLine("Количество нечётных чисел: " + nechet);
             Console.WriteLine("Количество чётных чисел: " + chet);
