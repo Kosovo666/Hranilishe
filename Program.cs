@@ -16,9 +16,9 @@ namespace ConsoleApp1
             int currentValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите последний спектр");
             int limit = int.Parse(Console.ReadLine());
-            while (currentValue <= limit)
+            while (currentZnach <= limbo)
             {
-                if (currentValue % 2 == 0)
+                if (currentZnach % 2 == 0)
                 {
                     chet++;
                 }
@@ -26,7 +26,7 @@ namespace ConsoleApp1
                 {
                     nechet++;
                 }
-                currentValue++;
+                currentZnach++;
             }
             Console.WriteLine("Кол-во нечётных чисел: " + nechet);
             Console.WriteLine("Кол-во чётных чисел: " + chet);
