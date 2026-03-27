@@ -10,8 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            uint oddNumbersCount = 0;
-            uint evenNumbersCount = 0;
+            uint nechet = 0;
+            uint chet = 0;
             Console.WriteLine("Введите первое число диапозона");
             int currentValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите последнее число диапозона");
@@ -20,16 +20,16 @@ namespace ConsoleApp1
             {
                 if (currentValue % 2 == 0)
                 {
-                    evenNumbersCount++;
+                    chet++;
                 }
                 else
                 {
-                    oddNumbersCount++;
+                    nechet++;
                 }
                 currentValue++;
             }
-            Console.WriteLine("Количество нечётных чисел: " + oddNumbersCount);
-            Console.WriteLine("Количество чётных чисел: " + evenNumbersCount);
+            Console.WriteLine("Количество нечётных чисел: " + nechet);
+            Console.WriteLine("Количество чётных чисел: " + chet);
             Console.ReadLine();
         }
     }
