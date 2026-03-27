@@ -28,7 +28,7 @@ namespace ConsoleApp1
                 }
                 currentZnach++;
             }
-            Console.WriteLine("Количество нечётных чисел: " + nechet);
+            Console.WriteLine("Кол-во нечётных чисел: " + nechet);
             Console.WriteLine("Количество чётных чисел: " + chet);
             Console.ReadLine();
         }
