@@ -14,7 +14,7 @@ namespace ConsoleApp1
             uint chet = 0;
             Console.WriteLine("Введите первый спектр");
             int currentValue = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите последнйи спектр");
+            Console.WriteLine("Введите последний спектр");
             int limit = int.Parse(Console.ReadLine());
             while (currentValue <= limit)
             {
