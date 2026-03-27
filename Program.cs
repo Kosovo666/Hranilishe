@@ -15,7 +15,7 @@ namespace ConsoleApp1
             Console.WriteLine("Введите первый спектр");
             int currentValue = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите последний спектр");
-            int limit = int.Parse(Console.ReadLine());
+            int limbo = int.Parse(Console.ReadLine());
             while (currentZnach <= limbo)
             {
                 if (currentZnach % 2 == 0)
