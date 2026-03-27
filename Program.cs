@@ -18,7 +18,7 @@ namespace ConsoleApp1
             int limbo = int.Parse(Console.ReadLine());
             while (currentZnachenie <= limbo)
             {
-                if (currentValue % 2 == 0)
+                if (currentZnachenie % 2 == 0)
                 {
                     chet++;
                 }
@@ -26,7 +26,7 @@ namespace ConsoleApp1
                 {
                     nechet++;
                 }
-                currentValue++;
+                currentZnachenie++;
             }
             Console.WriteLine("Количество нечётных чисел: " + nechet);
             Console.WriteLine("Количество чётных чисел: " + chet);
