@@ -12,9 +12,9 @@ namespace ConsoleApp1
         {
             uint nechet = 0;
             uint chet = 0;
-            Console.WriteLine("Введите первое число диапозона");
+            Console.WriteLine("Введите первый спектр");
             int currentValue = int.Parse(Console.ReadLine());
-            Console.WriteLine("Введите последнее число диапозона");
+            Console.WriteLine("Введите последнйи спектр");
             int limit = int.Parse(Console.ReadLine());
             while (currentValue <= limit)
             {
